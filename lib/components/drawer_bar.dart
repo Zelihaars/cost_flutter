@@ -1,5 +1,5 @@
 import 'package:cost_flutter/menus/home_page.dart';
-import 'package:cost_flutter/screens/abaout_page.dart';
+import 'package:cost_flutter/screens/about_page.dart';
 import 'package:cost_flutter/screens/communication_page.dart';
 import 'package:cost_flutter/screens/contact_page.dart';
 import 'package:cost_flutter/screens/mission_page.dart';

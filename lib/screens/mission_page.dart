@@ -1,3 +1,5 @@
+import 'package:cost_flutter/components/app_bar.dart';
+import 'package:cost_flutter/components/drawer_bar.dart';
 import 'package:flutter/material.dart';
 
 class MissionPage extends StatelessWidget {
@@ -9,10 +11,9 @@ class MissionPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red.shade800,
-          title: Text("Our Mission"),
-        ),
+        backgroundColor: Colors.grey[150],
+        appBar: MyAppBar(),
+        drawer: DrawerBar(),
         body: SingleChildScrollView(
           child: Center(
             child: Column(

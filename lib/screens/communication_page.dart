@@ -13,7 +13,7 @@ class _CommunicationPage extends State<CommunicationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey[300],
+        backgroundColor: Colors.grey[150],
         appBar:MyAppBar(),
 
         drawer: DrawerBar(),

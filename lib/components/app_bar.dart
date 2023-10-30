@@ -24,12 +24,15 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
         ),
       ),
       actions: <Widget>[
-        IconButton(
+        /* Arama İkonu
+        * IconButton(
           icon: const Icon(Icons.search, color: Colors.black),
           onPressed: () {
             print('Arama butonuna basıldı');
           },
         ),
+         */
+
         GestureDetector(
           onTap: () {
             print('Resme tıklandı');

@@ -1,3 +1,5 @@
+import 'package:cost_flutter/components/app_bar.dart';
+import 'package:cost_flutter/components/drawer_bar.dart';
 import 'package:flutter/material.dart';
 
 class AboutPage extends StatelessWidget {
@@ -7,10 +9,9 @@ class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.red.shade800,
-        title: Text("About Us"),
-      ),
+      backgroundColor: Colors.grey[150],
+      appBar: MyAppBar(),
+      drawer: DrawerBar(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

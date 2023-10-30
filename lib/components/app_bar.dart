@@ -12,7 +12,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: Builder(
         builder: (context) => IconButton(
           icon: const Padding(
-            padding:  EdgeInsets.only(left: 12.0),
+            padding: EdgeInsets.only(left: 12.0),
             child: Icon(
               Icons.menu,
               color: Colors.black,
@@ -23,7 +23,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           },
         ),
       ),
-      actions:  <Widget> [
+      actions: <Widget>[
         IconButton(
           icon: const Icon(Icons.search, color: Colors.black),
           onPressed: () {
@@ -36,12 +36,11 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           },
           child: Padding(
             padding: EdgeInsets.all(10.0),
-            child: Image.asset('images/logo-white.png',color: Colors.red.shade900),
+            child: Image.asset('assets/images/logo/logo-white.png',
+                color: Colors.red.shade900),
           ),
         ),
-
       ],
-
     );
   }
 }

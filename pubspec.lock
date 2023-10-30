@@ -49,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.6"
+  fading_edge_scrollview:
+    dependency: transitive
+    description:
+      name: fading_edge_scrollview
+      sha256: c25c2231652ce774cc31824d0112f11f653881f43d7f5302c05af11942052031
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.0"
   fake_async:
     dependency: transitive
     description:
@@ -75,6 +83,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  global_bottom_navigation_bar:
+    dependency: "direct main"
+    description:
+      name: global_bottom_navigation_bar
+      sha256: a708adea77cf8eacec54766644df9e336d3ba63aa4e08466a5c26d5fca6f12a4
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.8"
   google_nav_bar:
     dependency: "direct main"
     description:
@@ -123,6 +139,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  responsive_navigation_bar:
+    dependency: "direct main"
+    description:
+      name: responsive_navigation_bar
+      sha256: d1ee45efd95b5f55b3b26308762d40ce2ddfc66b359d8308e85aeb71073767e9
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.4"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -176,6 +200,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.0"
+  ticker_text:
+    dependency: "direct main"
+    description:
+      name: ticker_text
+      sha256: "084693e7ebd0940b747742962eb4e8ab31cebe02dcd2da75e3b2331d39040479"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   vector_math:
     dependency: transitive
     description:
@@ -194,3 +226,4 @@ packages:
     version: "0.1.4-beta"
 sdks:
   dart: ">=3.1.0 <4.0.0"
+  flutter: ">=3.0.0"

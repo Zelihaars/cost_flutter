@@ -18,7 +18,7 @@ class DrawerBar extends StatelessWidget {
             children: [
               DrawerHeader(
                 child: Image.asset(
-                  'images/logo-white.png',
+                  'assets/images/logo/logo-white.png',
                 ),
               ),
               Padding(
@@ -27,15 +27,18 @@ class DrawerBar extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-               Padding(
+              Padding(
                 padding: EdgeInsets.only(left: 25),
                 child: ListTile(
                   leading: Icon(
                     Icons.home,
                     color: Colors.white,
                   ),
-                  title: Text('Home', style: TextStyle(color: Colors.white),),
-                  onTap:(){
+                  title: Text(
+                    'Home',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => HomePage()),
@@ -43,15 +46,15 @@ class DrawerBar extends StatelessWidget {
                   },
                 ),
               ),
-               Padding(
-                padding: EdgeInsets.only(left: 25,bottom: 15),
+              Padding(
+                padding: EdgeInsets.only(left: 25, bottom: 15),
                 child: ListTile(
                   leading: Icon(
                     Icons.info,
                     color: Colors.white,
                   ),
                   title: Text('About', style: TextStyle(color: Colors.white)),
-                  onTap:(){
+                  onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => AboutPage()),
@@ -59,15 +62,16 @@ class DrawerBar extends StatelessWidget {
                   },
                 ),
               ),
-               Padding(
-                padding: EdgeInsets.only(left: 25,bottom: 15),
+              Padding(
+                padding: EdgeInsets.only(left: 25, bottom: 15),
                 child: ListTile(
                   leading: Icon(
                     Icons.ac_unit_rounded,
                     color: Colors.white,
                   ),
-                  title: Text('Our Mission', style: TextStyle(color: Colors.white)),
-                  onTap:(){
+                  title: Text('Our Mission',
+                      style: TextStyle(color: Colors.white)),
+                  onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => MissionPage()),
@@ -75,31 +79,34 @@ class DrawerBar extends StatelessWidget {
                   },
                 ),
               ),
-               Padding(
-                padding: EdgeInsets.only(left: 25,bottom: 15),
+              Padding(
+                padding: EdgeInsets.only(left: 25, bottom: 15),
                 child: ListTile(
                   leading: Icon(
                     Icons.supervised_user_circle_rounded,
                     color: Colors.white,
                   ),
-                  title: Text('Communications', style: TextStyle(color: Colors.white)),
-                  onTap:(){
+                  title: Text('Communications',
+                      style: TextStyle(color: Colors.white)),
+                  onTap: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => CommunicationPage()),
+                      MaterialPageRoute(
+                          builder: (context) => CommunicationPage()),
                     );
                   },
                 ),
               ),
-               Padding(
-                padding: EdgeInsets.only(left: 25,bottom: 15),
+              Padding(
+                padding: EdgeInsets.only(left: 25, bottom: 15),
                 child: ListTile(
                   leading: Icon(
                     Icons.settings,
                     color: Colors.white,
                   ),
-                  title: Text('Resources', style: TextStyle(color: Colors.white)),
-                  onTap:(){
+                  title:
+                      Text('Resources', style: TextStyle(color: Colors.white)),
+                  onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => ResourcesPage()),
@@ -107,24 +114,22 @@ class DrawerBar extends StatelessWidget {
                   },
                 ),
               ),
-
-               Padding(
+              Padding(
                 padding: EdgeInsets.only(left: 25),
                 child: ListTile(
                   leading: Icon(
                     Icons.phone,
                     color: Colors.white,
                   ),
-                  title: Text('Contact Us', style: TextStyle(color: Colors.white)),
-                  onTap:(){
+                  title:
+                      Text('Contact Us', style: TextStyle(color: Colors.white)),
+                  onTap: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => ContactPage()),
                     );
                   },
                 ),
-
-
               ),
             ],
           )

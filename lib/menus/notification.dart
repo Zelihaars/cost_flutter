@@ -27,7 +27,7 @@ class NotificationItem extends StatelessWidget {
           Icon(
             Icons.notifications, // İstediğiniz bir ikonu kullanabilirsiniz
             size: 20,
-            color: Colors.red, // İkonun rengini ayarlayabilirsiniz
+            color: Colors.red.shade900, // İkonun rengini ayarlayabilirsiniz
           ),
           const SizedBox(width: 12), // İkon ile metin arasında boşluk ekleyin
           Expanded(
